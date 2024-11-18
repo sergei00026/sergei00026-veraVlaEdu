@@ -1,0 +1,30 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  // .header__main
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    @media (max-width: 600px) {justify-content: center;}
+  }
+
+  // .header__logo
+  &__logo {
+    max-width: 100%;
+    @media (max-width: 600px) {display: none}
+  }
+
+  // .header__phone
+  &__phone {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: right;
+    color: #fff;
+    padding: 20px 0;
+  }
+}

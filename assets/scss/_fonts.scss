@@ -1,0 +1,39 @@
+@font-face {
+  font-family: avenir;
+  font-display: swap;
+  src: url("../fonts/avenirnextcyr-bold.woff") format("woff"),
+  url("../fonts/avenirnextcyr-bold.woff2") format("woff2"),
+  url("../fonts/avenirnextcyr-bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: avenir;
+  font-display: swap;
+  src: url("../fonts/avenirnextcyr-demi.woff") format("woff"),
+  url("../fonts/avenirnextcyr-demi.woff2") format("woff2"),
+  url("../fonts/avenirnextcyr-demi.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: avenir;
+  font-display: swap;
+  src: url("../fonts/avenirnextcyr-heavy.woff") format("woff"),
+  url("../fonts/avenirnextcyr-heavy.woff2") format("woff2"),
+  url("../fonts/avenirnextcyr-heavy.ttf") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: avenir;
+  font-display: swap;
+  src: url("../fonts/avenirnextcyr-medium.woff") format("woff"),
+  url("../fonts/avenirnextcyr-medium.woff2") format("woff2"),
+  url("../fonts/avenirnextcyr-medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
