@@ -1,0 +1,144 @@
+/* @font-face {
+	font-family: 'Averta';
+	src: url('fonts/Averta Cyrillic Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Averta-bold';
+	src: url('fonts/Averta Cyrillic Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Averta-bold-italic';
+	src: url('fonts/Averta Cyrillic Bold Italic.otf') format('opentype');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Averta-light';
+	src: url('fonts/Averta Cyrillic Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Averta-semibold';
+	src: url('fonts/Averta Cyrillic SemiBold.otf') format('opentype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+} */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  color: #333333;
+  line-height: 140%;
+  font-family: "Averta";
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+  font-family: "Averta";
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url("/fonts/AvertaCyrillicRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta-bold";
+  src: url("/fonts/Averta Cyrillic Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta-bold-italic";
+  src: url("/fonts/Averta Cyrillic Bold Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta-light";
+  src: url("fonts/Averta Cyrillic Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta-semibold";
+  src: url("fonts/Averta Cyrillic SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+[class*=__container] {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}/*# sourceMappingURL=style.css.map */

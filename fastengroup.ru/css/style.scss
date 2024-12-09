@@ -1,0 +1,45 @@
+@import '_fonts.scss';
+@import '_null.scss';
+@font-face {
+	font-family: 'Averta';
+	src: url('/fonts/AvertaCyrillicRegular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Averta-bold';
+	src: url('/fonts/Averta Cyrillic Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Averta-bold-italic';
+	src: url('/fonts/Averta Cyrillic Bold Italic.otf') format('opentype');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Averta-light';
+	src: url('fonts/Averta Cyrillic Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Averta-semibold';
+	src: url('fonts/Averta Cyrillic SemiBold.otf') format('opentype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+[class*='__container'] {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: content-box;
+}
